@@ -1,0 +1,66 @@
+/* General rules */
+
+* {
+
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
+/* Block rules */
+
+.city {
+
+  width: 100%;
+  height: 100vh;
+  border: 2px solid black;
+  position: relative;
+  background-size: cover;
+
+}
+
+/* City name rules */
+
+.name {
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50% , -50%);
+  font-size: 60px;
+  color: white;
+  text-shadow: 1px -4px 9px black;
+
+}
+
+/* City images */
+
+#frosinone {
+
+  background-image: url(img/frosinone.jpg);
+
+}
+
+#istanbul {
+
+  background-image: url(img/istanbul.jpg);
+
+}
+
+#newyork {
+
+  background-image: url(img/newyork.jpg);
+
+}
+
+#layover {
+
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(233,233,240,0.2);
+
+}
